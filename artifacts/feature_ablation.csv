@@ -1,0 +1,2 @@
+variant,dropped_features,test_recall_10,test_ndcg_10,fit_time_s
+no_pair,"pair_purchases,pair_qty,pair_spend,has_prior_purchase",0.41704133780589464,0.8224813916568133,134.2

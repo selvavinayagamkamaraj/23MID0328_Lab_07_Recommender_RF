@@ -1,0 +1,11 @@
+{
+  "t1_cutoff": "2011-10-07 13:19:48",
+  "t2_cutoff": "2011-11-11 12:10:00",
+  "train_hist_rows": 274912,
+  "val_future_rows": 58866,
+  "test_future_rows": 58954,
+  "train_hist_customers": 3703,
+  "train_hist_items": 3542,
+  "candidate_catalog_size": 1500,
+  "candidate_policy": "Top-1500 items by unique-invoice count within train_hist (frozen before any target-window labels are touched)"
+}

@@ -1,0 +1,18 @@
+{
+  "source_url": "https://archive.ics.uci.edu/dataset/352/online+retail",
+  "access_note": "Instructor-frozen extract obtained as a verified mirror of the UCI Online Retail transaction file (identical row count/date range to the canonical source)",
+  "file_sha256_16": "a7debfb769f93954",
+  "raw_rows": 541909,
+  "filtered_rows": 392732,
+  "rows_removed_cancellations": 9288,
+  "rows_removed_missing_customerid": 135080,
+  "rows_removed_bad_qty_or_price": 1338,
+  "exact_duplicate_rows_dropped": 5192,
+  "unique_customers": 4339,
+  "unique_items": 3665,
+  "date_min": "2010-12-01 08:26:00",
+  "date_max": "2011-12-09 12:50:00",
+  "return_cancellation_policy": "Invoices with InvoiceNo starting 'C' removed prior to target/feature construction; never counted as positive relevance.",
+  "missing_id_policy": "Rows with null CustomerID removed (not usable for personalized modelling).",
+  "privacy_note": "CustomerID retained only as an opaque join key; no names, addresses, emails, or payment fields present in source fields used."
+}

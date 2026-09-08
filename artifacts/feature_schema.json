@@ -1,0 +1,23 @@
+{
+  "feature_cols": [
+    "cust_txns",
+    "cust_items",
+    "cust_qty",
+    "cust_spend",
+    "cust_recency_days",
+    "cust_active_days",
+    "cust_avg_basket",
+    "cust_avg_spend_per_txn",
+    "cust_freq_per_day",
+    "item_txns",
+    "item_buyers",
+    "item_qty",
+    "item_avg_price",
+    "item_recency_days",
+    "item_repeat_rate",
+    "pair_purchases",
+    "pair_qty",
+    "pair_spend",
+    "has_prior_purchase"
+  ]
+}
